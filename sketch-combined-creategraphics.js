@@ -18,7 +18,7 @@ const h = 480;
 //let shouldTakePhoto = true;
 let captureTime = 0;
 //设置按钮，开启的时候添加白色画面
-//let buttonOn = false;
+let buttonOn = false;
 //sound
 let song;
 // left video variables
@@ -76,9 +76,9 @@ function draw() {
   }
   rightVideo();
   leftVideo();
-  //if (buttonOn == false){
-  //background(255);
-  //}
+  if (buttonOn == false){
+  background(255);
+  }
 } 
 
 
